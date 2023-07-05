@@ -1,0 +1,57 @@
+body {
+  background-color: #393e46;
+  font-family: "Lobster", cursive;
+}
+
+h1 {
+  margin: 30px;
+
+  text-shadow: 5px 10px #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 50%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #4ecca3;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+.start {
+  background-color: #4ecca3;
+  border-radius: 50%;
+  color: red;
+  padding: 10px;
+  text-align: center;
+  font: inherit;
+  font-size: 2.5rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 60px;
+}
+.start:hover {
+  background-color: red;
+  color: #4ecca3;
+}
